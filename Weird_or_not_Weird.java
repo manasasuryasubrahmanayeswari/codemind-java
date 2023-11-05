@@ -1,18 +1,17 @@
-import java.util.Scanner;
+import java.util.*;
 public class weird
 {
     public static void main(String args[])
     {
-        int n;
         Scanner sc=new Scanner(System.in);
-        n=sc.nextInt();
-        if(n%2==1)
+        int n=sc.nextInt();
+        if(n%2==0)
         {
-            System.out.println("weird");
+            System.out.println("not weird");
         }
         else
         {
-            System.out.println("not weird");
- }
-}
+            System.out.println("weird");
+        }
+    }
 }
