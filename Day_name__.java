@@ -8,35 +8,35 @@ public class week
         n=sc.nextInt();
         if(n==1)
         {
-            System.out.println("Monday");
+            System.out.print("Monday");
         }
         else if(n==2)
         {
-            System.out.println("Tuesday");
+            System.out.print("Tuesday");
         }
         else if(n==3)
         {
-            System.out.println("Wednesday");
+            System.out.print("Wednesday");
         }
         else if(n==4)
         {
-            System.out.println("Thursday");
+            System.out.print("Thursday");
         }
         else if(n==5)
         {
-            System.out.println("Friday");
+            System.out.print("Friday");
         }
         else if(n==6)
         {
-            System.out.println("Saturday");
+            System.out.print("Saturday");
         }
         else if(n==7)
         {
-            System.out.println("Sunday");
+            System.out.print("Sunday");
         }
         else
         {
-            System.out.println("Invalid input");
+            System.out.print("Invalid input");
         }
     }
 }
